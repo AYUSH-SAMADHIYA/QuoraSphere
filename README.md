@@ -139,7 +139,7 @@ QuoraSphere/
 
  2.Navigate to the client directory:
    ```bash
-    cd client
+   cd client
    npm install
    npm run dev
    ```
