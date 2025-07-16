@@ -5,7 +5,6 @@ A full-stack Q&A platform built with **React**, **Express**, **MongoDB**, and **
 ---
 
 
----
 
 ## 🚀 Features
 
