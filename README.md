@@ -108,8 +108,6 @@ QuoraSphere/
 │ ├── uploads/ # Uploaded images
 │ └── server.js # Main server entry
 │
-├
-├
 ├── README.md # Project documentation
 ```
 ---
