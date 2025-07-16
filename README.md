@@ -53,18 +53,14 @@ A full-stack Q&A platform built with **React**, **Express**, **MongoDB**, and **
 
 ---
 
-## 📂 Folder Structure
 
 
-## 📸 Screenshots
-
-> You can add these screenshots to a `/screenshots` folder in your repo and update the links.
 
 ### Home Page
 ![Home](./screenshots/home.png)
 
 ### Question Detail Page
-![Question Detail](./screenshots/detail-1.png.png)
+![Question Detail](./screenshots/detail-1.png)
 
 ### Question Detail Page
 ![Question Detail](./screenshots/detail-2.png)
@@ -140,9 +136,11 @@ QuoraSphere/
    npm start
    ```
 
-### 💻Frontend Setup
- ```bash
- cd client
-npm install
-npm run dev
-  ```
+ ### 💻Frontend Setup
+
+ 2.Navigate to the client directory:
+   ```bash
+    cd client
+   npm install
+   npm run dev
+   ```
