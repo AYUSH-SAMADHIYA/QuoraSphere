@@ -89,6 +89,7 @@ A full-stack Q&A platform built with **React**, **Express**, **MongoDB**, and **
 ---
 
 ## 🧪 Folder Structure
+```
 QuoraSphere/
 │
 ├── client/ # React frontend
@@ -110,7 +111,7 @@ QuoraSphere/
 ├
 ├
 ├── README.md # Project documentation
-
+```
 ---
 
 ## 🛠️ How to Run Locally
