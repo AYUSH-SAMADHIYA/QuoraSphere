@@ -1,4 +1,4 @@
-# 🧠 QuoraSphere - Quora Clone Project
+# 🧠 QuoraSphere 
 
 A full-stack Q&A platform built with **React**, **Express**, **MongoDB**, and **Tailwind CSS**. Users can register, post questions, answer others' queries with optional images (upload or URL), comment on answers, and interact through upvotes/downvotes. An **Admin Dashboard** allows control over users and content, ensuring community moderation.
 
