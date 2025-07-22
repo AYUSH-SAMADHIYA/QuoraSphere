@@ -123,14 +123,7 @@ QuoraSphere/
 1. Navigate to the server directory:
    ```bash
    cd server
-   
-   npm install
-
-   MONGO_URI="mongodb+srv://gajneshsharma242:QuoraClone%402004@cluster0.n5sleuf.mongodb.net/quora-clone?retryWrites=true w=majority&appName=Cluster0"
-   JWT_SECRET=supersecretkey
-   PORT=5000
-
-   npm start
+   npm run dev
    ```
 
  ### 💻Frontend Setup
