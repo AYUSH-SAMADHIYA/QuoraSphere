@@ -57,28 +57,26 @@ A full-stack Q&A platform built with **React**, **Express**, **MongoDB**, and **
 
 
 ### Home Page
-![Home](./Screenshots/hhome.png)
+![Home](./Screenshots/home.png)
 
 ### Question Detail Page
 ![Question Detail](./Screenshots/detail-1.png)
 
-### Question Detail Page
-![Question Detail](./Screenshots/detail-2.png)
 
 ### Question Detail Page
 ![Question Detail](./Screenshots/detail-3.png)
 
 ### Search Question Page
-![Admin Dashboard](./Screenshots/seearch.png)
+![Admin Dashboard](./Screenshots/search.png)
 
 ### Profile Page
-![Question Detail](./Screenshots/pprofile.png)
+![Question Detail](./Screenshots/profile.png)
 
 ### Edit Question Detail Page
 ![Question Detail](./Screenshots/edit.png)
 
 ### Admin Dashboard Detail Page
-![Question Detail](./Screenshots/aadmin.png)
+![Question Detail](./Screenshots/admin.png)
 
 ### Login Page
 ![Admin Dashboard](./Screenshots/login.png)
