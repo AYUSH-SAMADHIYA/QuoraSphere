@@ -1,11 +1,10 @@
-# 🧠 QuoraSphere - Quora Clone Project
+# 🧠 QuoraSphere 
 
 A full-stack Q&A platform built with **React**, **Express**, **MongoDB**, and **Tailwind CSS**. Users can register, post questions, answer others' queries with optional images (upload or URL), comment on answers, and interact through upvotes/downvotes. An **Admin Dashboard** allows control over users and content, ensuring community moderation.
 
 ---
 
 
----
 
 ## 🚀 Features
 
@@ -54,24 +53,20 @@ A full-stack Q&A platform built with **React**, **Express**, **MongoDB**, and **
 
 ---
 
-## 📂 Folder Structure
 
 
-## 📸 Screenshots
-
-> You can add these screenshots to a `/screenshots` folder in your repo and update the links.
 
 ### Home Page
-![Home](./screenshots/home.png)
+![Home](./Screenshots/home.png)
 
 ### Question Detail Page
-![Question Detail](./screenshots/detail-1.png.png)
+![Question Detail](./Screenshots/detail-1.png)
 
 ### Question Detail Page
-![Question Detail](./screenshots/detail-2.png)
+![Question Detail](./Screenshots/detail-2.png)
 
 ### Question Detail Page
-![Question Detail](./screenshots/detail-3.png)
+![Question Detail](./Screenshots/detail-3.png)
 
 ### Search Question Page
 ![Admin Dashboard](./Screenshots/search.png)
@@ -80,7 +75,7 @@ A full-stack Q&A platform built with **React**, **Express**, **MongoDB**, and **
 ![Question Detail](./Screenshots/profile.png)
 
 ### Edit Question Detail Page
-![Question Detail](./screenshots/edit.png)
+![Question Detail](./Screenshots/edit.png)
 
 ### Admin Dashboard Detail Page
 ![Question Detail](./Screenshots/admin.png)
@@ -94,6 +89,7 @@ A full-stack Q&A platform built with **React**, **Express**, **MongoDB**, and **
 ---
 
 ## 🧪 Folder Structure
+```
 QuoraSphere/
 │
 ├── client/ # React frontend
@@ -112,10 +108,8 @@ QuoraSphere/
 │ ├── uploads/ # Uploaded images
 │ └── server.js # Main server entry
 │
-├
-├
 ├── README.md # Project documentation
-
+```
 ---
 
 ## 🛠️ How to Run Locally
@@ -134,16 +128,18 @@ QuoraSphere/
    
    npm install
 
-   MONGO_URI=your_mongodb_connection_string
-   JWT_SECRET=your_jwt_secret
+   MONGO_URI="mongodb+srv://gajneshsharma242:QuoraClone%402004@cluster0.n5sleuf.mongodb.net/quora-clone?retryWrites=true w=majority&appName=Cluster0"
+   JWT_SECRET=supersecretkey
    PORT=5000
 
    npm start
    ```
 
-### 💻Frontend Setup
- ```bash
- cd client
-npm install
-npm run dev
-  ```
+ ### 💻Frontend Setup
+
+ 2.Navigate to the client directory:
+   ```bash
+   cd client
+   npm install
+   npm run dev
+   ```
