@@ -57,7 +57,7 @@ A full-stack Q&A platform built with **React**, **Express**, **MongoDB**, and **
 
 
 ### Home Page
-![Home](./Screenshots/home.png)
+![Home](./Screenshots/hhome.png)
 
 ### Question Detail Page
 ![Question Detail](./Screenshots/detail-1.png)
@@ -69,16 +69,16 @@ A full-stack Q&A platform built with **React**, **Express**, **MongoDB**, and **
 ![Question Detail](./Screenshots/detail-3.png)
 
 ### Search Question Page
-![Admin Dashboard](./Screenshots/search.png)
+![Admin Dashboard](./Screenshots/seearch.png)
 
 ### Profile Page
-![Question Detail](./Screenshots/profile.png)
+![Question Detail](./Screenshots/pprofile.png)
 
 ### Edit Question Detail Page
 ![Question Detail](./Screenshots/edit.png)
 
 ### Admin Dashboard Detail Page
-![Question Detail](./Screenshots/admin.png)
+![Question Detail](./Screenshots/aadmin.png)
 
 ### Login Page
 ![Admin Dashboard](./Screenshots/login.png)
