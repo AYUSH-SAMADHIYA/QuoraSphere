@@ -29,15 +29,29 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
         <Link
           to="/"
-          className="text-2xl font-bold text-blue-600 dark:text-blue-400 tracking-tight"
+          className="flex items-center gap-2"
         >
-          QuoraSphere
+          <img
+            src="https://api.mbm.ac.in/assets/e0f52a82-6614-4a3a-a0b8-f5882652f136"
+            alt="CampusConnect Logo"
+            className="h-10 w-auto object-contain"
+            onError={(e) => {
+              // Fallback to text if image fails to load
+              e.target.style.display = 'none';
+            }}
+          />
+          <span className="text-2xl font-bold text-blue-600 dark:text-blue-400 tracking-tight">
+            CampusConnect
+          </span>
         </Link>
 
         <div className="flex gap-4 items-center text-sm font-medium text-gray-800 dark:text-gray-100">
           <Link to="/" className="hover:text-blue-600 dark:hover:text-blue-300">Home</Link>
           <Link to="/ask" className="hover:text-blue-600 dark:hover:text-blue-300">Ask</Link>
           <Link to="/search" className="hover:text-blue-600 dark:hover:text-blue-300">Search</Link>
+          <Link to="/placement" className="hover:text-blue-600 dark:hover:text-blue-300">Placement</Link>
+          <Link to="/mentors" className="hover:text-blue-600 dark:hover:text-blue-300">Mentors</Link>
+          <Link to="/engagement" className="hover:text-blue-600 dark:hover:text-blue-300">Engagement</Link>
           <Link to="/profile" className="hover:text-blue-600 dark:hover:text-blue-300">Profile</Link>
 
           <button

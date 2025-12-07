@@ -11,6 +11,9 @@ import Search from './pages/Search';
 import Profile from "./pages/Profile";
 import EditQuestion from "./pages/EditQuestion";
 import AdminDashboard from "./pages/AdminDashboard"; // ✅ Admin Dashboard page
+import Placement from "./pages/Placement"; // ✅ Placement/Job Board page
+import Mentors from "./pages/Mentors"; // ✅ Mentors page
+import Engagement from "./pages/Engagement"; // ✅ Engagement/Practice page
 import { Toaster } from 'sonner';
 
 function App() {
@@ -37,6 +40,9 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route path="/search" element={<Search />} />
+            <Route path="/placement" element={<Placement />} />
+            <Route path="/mentors" element={<Mentors />} />
+            <Route path="/engagement" element={<Engagement />} />
             <Route path="/question/:id" element={<QuestionDetail />} />
 
             <Route

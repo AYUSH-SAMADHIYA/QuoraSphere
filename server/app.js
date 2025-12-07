@@ -13,6 +13,9 @@ const answerRoutes = require("./routes/answerRoutes");
 const userRoutes = require("./routes/userRoutes");
 const commentRoutes = require("./routes/commentRoutes");
 const adminRoutes = require("./routes/adminRoutes"); // ✅ New admin route
+const jobRoutes = require("./routes/jobRoutes"); // ✅ Job/Placement routes
+const mentorRoutes = require("./routes/mentorRoutes"); // ✅ Mentor routes
+const engagementRoutes = require("./routes/engagementRoutes"); // ✅ Engagement/Test Questions routes
 
 const app = express();
 
@@ -27,6 +30,9 @@ app.use("/api/answers", answerRoutes);          // 💬 Answers & Votes
 app.use("/api/users", userRoutes);              // 👤 Profile & Personal Questions
 app.use("/api/comments", commentRoutes);        // 💭 Comments
 app.use("/api/admin", adminRoutes);             // 🛡️ Admin Panel Routes
+app.use("/api/jobs", jobRoutes);                // 💼 Job/Placement Routes
+app.use("/api/mentors", mentorRoutes);          // 👨‍🏫 Mentor Routes
+app.use("/api/engagement", engagementRoutes);   // 📚 Engagement/Test Questions Routes
 app.use("/uploads", express.static("uploads"));
 
 // ✅ Base route
