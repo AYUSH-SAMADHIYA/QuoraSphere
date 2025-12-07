@@ -62,8 +62,6 @@ A full-stack Q&A platform built with **React**, **Express**, **MongoDB**, and **
 ### Question Detail Page
 ![Question Detail](./Screenshots/detail-1.png)
 
-### Question Detail Page
-![Question Detail](./Screenshots/detail-2.png)
 
 ### Question Detail Page
 ![Question Detail](./Screenshots/detail-3.png)
@@ -125,14 +123,7 @@ QuoraSphere/
 1. Navigate to the server directory:
    ```bash
    cd server
-   
-   npm install
-
-   MONGO_URI="mongodb+srv://gajneshsharma242:QuoraClone%402004@cluster0.n5sleuf.mongodb.net/quora-clone?retryWrites=true w=majority&appName=Cluster0"
-   JWT_SECRET=supersecretkey
-   PORT=5000
-
-   npm start
+   npm run dev
    ```
 
  ### 💻Frontend Setup
